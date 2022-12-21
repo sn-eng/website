@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Logo from '../../assets/logo.png';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Logo from '../../assets/logo.png'
 
-function Footer() {
+const Footer: React.FunctionComponent = () => {
     return (
         <footer>
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -12,11 +12,8 @@ function Footer() {
                     <div className="sm:col-span-12 lg:col-span-3">
                         <div className="mb-2">
                             {/* Logo */}
-                            <Link
-                                to="/"
-                                aria-label="Cruip"
-                            >
-                                <img  
+                            <Link to="/" aria-label="Cruip">
+                                <img
                                     src={Logo}
                                     alt="Kadge Contruction (PVT) (LTD)"
                                     className="h-20 inline-block align-middle justify-center hover:opacity-80"
@@ -227,7 +224,7 @@ function Footer() {
                 </div>
             </div>
         </footer>
-    );
+    )
 }
 
-export default Footer;
+export default Footer
