@@ -1,18 +1,18 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import React from 'react'
+import { Outlet } from 'react-router-dom'
+import Header from '../components/header'
+import Footer from '../components/footer'
 
 const GeneralPagesLayout = () => {
     return (
-        <div >
+        <div>
             <Header />
-            <section style={{ height: '40vh' }}>
+            <section style={{ minHeight: '40vh' }}>
                 <Outlet />
             </section>
             <Footer />
         </div>
-    );
-};
+    )
+}
 
-export default GeneralPagesLayout;
+export default GeneralPagesLayout

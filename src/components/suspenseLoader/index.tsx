@@ -8,7 +8,7 @@ function SuspenseLoader() {
                 <span className='visually-hidden'>Loading...</span>
             </div>
         </div>
-    );
+    )
 }
 
-export default SuspenseLoader;
+export default SuspenseLoader

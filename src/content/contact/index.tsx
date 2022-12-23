@@ -3,12 +3,12 @@ import Address from './Address'
 import ContactForm from './ContactForm'
 
 const Contact = () => {
-  return (
-    <div>
-      <Address/>
-      <ContactForm/>
-    </div>
-  )
+    return (
+        <div>
+            <Address />
+            <ContactForm />
+        </div>
+    )
 }
 
 export default Contact

@@ -5,14 +5,14 @@ import Testimonials from './Testimonials'
 import Welcome from './Welcome'
 
 const LandingPage = () => {
-  return (
-    <div>
-      <Banner/>
-      <Welcome/>
-      <Portfolio/>
-      <Testimonials/>
-    </div>
-  )
+    return (
+        <div>
+            <Banner />
+            <Welcome />
+            <Portfolio />
+            <Testimonials />
+        </div>
+    )
 }
 
 export default LandingPage

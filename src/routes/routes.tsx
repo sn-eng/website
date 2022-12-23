@@ -20,7 +20,6 @@ const About = Loader(lazy(() => import('../content/about')))
 const Services = Loader(lazy(() => import('../content/services')))
 const Contact = Loader(lazy(() => import('../content/contact')))
 
-
 const routes: RouteObject[] = [
     {
         path: '',
@@ -44,7 +43,6 @@ const routes: RouteObject[] = [
             },
         ],
     },
-   
 ]
 
 export default routes

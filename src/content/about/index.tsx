@@ -4,13 +4,13 @@ import Story from './Story'
 import Vision from './Vision'
 
 const About = () => {
-  return (
-    <div>
-      <Story/>
-      <Vision/>
-      <Management/>
-    </div>
-  )
+    return (
+        <div>
+            <Story />
+            <Vision />
+            <Management />
+        </div>
+    )
 }
 
-export default About  
+export default About

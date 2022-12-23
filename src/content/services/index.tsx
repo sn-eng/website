@@ -1,9 +1,9 @@
-import React from 'react';
-import Banner from './Banner';
-import Civils from './Civils';
-import ConstructionWorks from './ConstructionWorks';
-import ConsultanclyWorks from './ConsultanclyWorks';
-import Renovations from './Renovations';
+import React from 'react'
+import Banner from './Banner'
+import Civils from './Civils'
+import ConstructionWorks from './ConstructionWorks'
+import ConsultanclyWorks from './ConsultanclyWorks'
+import Renovations from './Renovations'
 
 const Services = () => {
     return (
@@ -14,7 +14,7 @@ const Services = () => {
             <Civils />
             <ConsultanclyWorks />
         </div>
-    );
-};
+    )
+}
 
-export default Services;
+export default Services
