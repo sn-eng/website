@@ -218,8 +218,8 @@ function Footer() {
                         >
                             SiDesigned
                         </a>{' '}
-                        © 2022 Kadge Construction (PVT) (LTD) . All rights
-                        reserved.
+                        © {new Date().getFullYear()} Kadge Construction (PVT)
+                        (LTD) . All rights reserved.
                     </div>
                 </div>
             </div>

@@ -34,28 +34,28 @@ export default function Footer() {
                         <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
                             <li className='nav-item'>
                                 <Link to='/'>
-                                    <h1 className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75'>
+                                    <h1 className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#0c4491] hover:text-[#d2a517]'>
                                         Home
                                     </h1>
                                 </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link to='/services'>
-                                    <h1 className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75'>
+                                    <h1 className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#0c4491] hover:text-[#d2a517]'>
                                         Services
                                     </h1>
                                 </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link to='/about'>
-                                    <h1 className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75'>
+                                    <h1 className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#0c4491] hover:text-[#d2a517]'>
                                         About Us
                                     </h1>
                                 </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link to='/contact'>
-                                    <h1 className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75'>
+                                    <h1 className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-[#0c4491] hover:text-[#d2a517]'>
                                         Contact
                                     </h1>
                                 </Link>
