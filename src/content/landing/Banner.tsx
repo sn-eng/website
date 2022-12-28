@@ -5,7 +5,7 @@ function Banner() {
     return (
         <section className='relative'>
             <div
-                className='relative pt-16 pb-32 flex content-center items-center justify-center -mt-[20px]'
+                className='relative pt-16 pb-32 flex content-center items-center justify-center '
                 style={{
                     minHeight: '95vh',
                 }}

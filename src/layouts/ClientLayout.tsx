@@ -7,7 +7,7 @@ const GeneralPagesLayout = () => {
     return (
         <div>
             <Header />
-            <section style={{ minHeight: '40vh' }}>
+            <section className='-mt-[20px]' style={{ minHeight: '40vh' }}>
                 <Outlet />
             </section>
             <Footer />
