@@ -72,7 +72,7 @@ const Portfolio = () => {
                             Our Portfolio
                         </h2>
                         <p className='text-lg leading-relaxed mt-4 mb-4 text-gray-500'>
-                            We pride ourselves as masters in quality and
+                            We pride ourselves as masters of quality and
                             consistency and our large portfolio of projects that
                             we have done include the following:
                         </p>

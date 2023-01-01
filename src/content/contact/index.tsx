@@ -6,7 +6,7 @@ const Contact = () => {
             id='contact'
             className='ud-contact relative py-20 md:py-[120px]'
         >
-            <div className='absolute top-0 left-0 z-[-1] h-1/2 w-full bg-[#d2a517] lg:h-[45%] xl:h-1/2'></div>
+            <div className='absolute top-0 left-0 z-[-1] h-1/2 w-full bg-[#0c4491] lg:h-[45%] xl:h-1/2'></div>
             <div className='container px-4'>
                 <div className='-mx-4 flex flex-wrap items-center'>
                     <div className='w-full px-4 lg:w-7/12 xl:w-8/12'>
@@ -23,7 +23,7 @@ const Contact = () => {
                             </div>
                             <div className='mb-12 flex flex-wrap justify-between lg:mb-0'>
                                 <div className='mb-8 flex w-[330px] max-w-full'>
-                                    <div className='mr-6 text-[32px] text-primary'>
+                                    <div className='mr-6 text-[32px] text-primary text-white lg:text-gray-800'>
                                         <svg
                                             width='29'
                                             height='35'
@@ -35,17 +35,17 @@ const Contact = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h5 className='mb-6 text-lg font-semibold'>
+                                        <h5 className='mb-6 text-lg font-semibold text-white lg:text-gray-800'>
                                             Our Location
                                         </h5>
-                                        <p className='text-base text-body-color'>
+                                        <p className='text-base text-body-color text-white lg:text-gray-800'>
                                             Suite 22, 2nd Floor, Khan House
                                             Albion/Takawira St, Harare
                                         </p>
                                     </div>
                                 </div>
                                 <div className='mb-8 flex w-[330px] max-w-full'>
-                                    <div className='mr-6 text-[32px] text-primary'>
+                                    <div className='mr-6 text-[32px] text-primary text-white lg:text-gray-800'>
                                         <svg
                                             width='34'
                                             height='25'
@@ -56,13 +56,13 @@ const Contact = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h5 className='mb-6 text-lg font-semibold'>
+                                        <h5 className='mb-6 text-lg font-semibold text-white lg:text-gray-800'>
                                             How Can We Help?
                                         </h5>
-                                        <p className='text-base text-body-color'>
+                                        <p className='text-base text-body-color text-white lg:text-gray-800'>
                                             +263 77 375 1842
                                         </p>
-                                        <p className='text-base text-body-color'>
+                                        <p className='text-base text-body-color text-white lg:text-gray-800'>
                                             contact@kadge.co.zw
                                         </p>
                                     </div>
