@@ -1,5 +1,6 @@
 import React from 'react'
 import Management from './Management'
+import Services from './Services'
 import Story from './Story'
 import Vision from './Vision'
 
@@ -8,6 +9,7 @@ const About = () => {
         <div>
             <Story />
             <Vision />
+            <Services/>
             <Management />
         </div>
     )

@@ -19,7 +19,7 @@ export default function Header(props: any) {
                         <img
                             src={Logo}
                             alt='Kadge Construction'
-                            className='h-12 pl-12  hover:opacity-75'
+                            className='h-[40px] pl-12  hover:opacity-75'
                         />
                     </Link>
                     <button
@@ -27,13 +27,7 @@ export default function Header(props: any) {
                         type='button'
                         onClick={() => setNavbarOpen(!navbarOpen)}
                     >
-                        <i
-                            className={
-                                (props.transparent
-                                    ? 'text-white'
-                                    : 'text-gray-800') + ' fas fa-bars'
-                            }
-                        ></i>
+                        <i className='text-gray-800f as fa-bars'></i>
                     </button>
                 </div>
                 <div
@@ -45,136 +39,56 @@ export default function Header(props: any) {
                 >
                     <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
                         <li className='flex items-center'>
-                            <a
-                                className={
-                                    (props.transparent
-                                        ? 'lg:text-white lg:hover:text-gray-300 text-gray-800'
-                                        : 'text-gray-800 hover:text-gray-600') +
-                                    ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
-                                }
-                                href='#pablo'
-                            >
-                                <i
-                                    className={
-                                        (props.transparent
-                                            ? 'lg:text-gray-300 text-gray-500'
-                                            : 'text-gray-500') +
-                                        ' fab fa-facebook text-lg leading-lg '
-                                    }
-                                />
-                                <span className='lg:hidden inline-block ml-2'>
-                                    Share
-                                </span>
-                            </a>
-                        </li>
-
-                        <li className='flex items-center'>
-                            <a
-                                className={
-                                    (props.transparent
-                                        ? 'lg:text-white lg:hover:text-gray-300 text-gray-800'
-                                        : 'text-gray-800 hover:text-gray-600') +
-                                    ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
-                                }
-                                href='#pablo'
-                            >
-                                <i
-                                    className={
-                                        (props.transparent
-                                            ? 'lg:text-gray-300 text-gray-500'
-                                            : 'text-gray-500') +
-                                        ' fab fa-twitter text-lg leading-lg '
-                                    }
-                                />
-                                <span className='lg:hidden inline-block ml-2'>
-                                    Tweet
-                                </span>
-                            </a>
-                        </li>
-
-                        <li className='flex items-center'>
-                            <a
-                                className={
-                                    (props.transparent
-                                        ? 'lg:text-white lg:hover:text-gray-300 text-gray-800'
-                                        : 'text-gray-800 hover:text-gray-600') +
-                                    ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
-                                }
-                                href='#pablo'
-                            >
-                                <i
-                                    className={
-                                        (props.transparent
-                                            ? 'lg:text-gray-300 text-gray-500'
-                                            : 'text-gray-500') +
-                                        ' fab fa-github text-lg leading-lg '
-                                    }
-                                />
-                                <span className='lg:hidden inline-block ml-2'>
-                                    Star
-                                </span>
-                            </a>
-                        </li>
-
-                        <li className='flex items-center'>
-                            <button
-                                className={
-                                    (props.transparent
-                                        ? 'bg-white text-gray-800 active:bg-gray-100'
-                                        : 'bg-pink-500 text-white active:bg-pink-600') +
-                                    ' text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3'
-                                }
-                                type='button'
-                                style={{ transition: 'all .15s ease' }}
-                            >
-                                <i className='fas fa-arrow-alt-circle-down'></i>{' '}
-                                Download
-                            </button>
+                            <Link to='/'>
+                                <button
+                                    className='active:text-gray-600 hover:text-[#10a65c] text-sm font-bold  text-gray-800  px-4  rounded  outline-none lg:mr-1 lg:mb-0 ml-3 mb-3'
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                    onClick={() => setNavbarOpen(!navbarOpen)}
+                                >
+                                    <i className='fas fa-arrow-alt-circle-down'></i>{' '}
+                                    Home
+                                </button>
+                            </Link>
                         </li>
                         <li className='flex items-center'>
-                            <button
-                                className={
-                                    (props.transparent
-                                        ? 'bg-white text-gray-800 active:bg-gray-100'
-                                        : 'bg-pink-500 text-white active:bg-pink-600') +
-                                    ' text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3'
-                                }
-                                type='button'
-                                style={{ transition: 'all .15s ease' }}
-                            >
-                                <i className='fas fa-arrow-alt-circle-down'></i>{' '}
-                                Download
-                            </button>
+                            <Link to='/about'>
+                                <button
+                                    className='active:text-gray-600 hover:text-[#10a65c] text-sm font-bold  text-gray-800  px-4  rounded  outline-none lg:mr-1 lg:mb-0 ml-3 mb-3'
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                    onClick={() => setNavbarOpen(!navbarOpen)}
+                                >
+                                    <i className='fas fa-arrow-alt-circle-down'></i>{' '}
+                                    About Us
+                                </button>
+                            </Link>
                         </li>
                         <li className='flex items-center'>
-                            <button
-                                className={
-                                    (props.transparent
-                                        ? 'bg-white text-gray-800 active:bg-gray-100'
-                                        : 'bg-pink-500 text-white active:bg-pink-600') +
-                                    ' text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3'
-                                }
-                                type='button'
-                                style={{ transition: 'all .15s ease' }}
-                            >
-                                <i className='fas fa-arrow-alt-circle-down'></i>{' '}
-                                Download
-                            </button>
+                            <Link to='/blog'>
+                                <button
+                                    className='active:text-gray-600 hover:text-[#10a65c] text-sm font-bold  text-gray-800  px-4 rounded  outline-none lg:mr-1 lg:mb-0 ml-3 mb-3'
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                    onClick={() => setNavbarOpen(!navbarOpen)}
+                                >
+                                    <i className='fas fa-arrow-alt-circle-down'></i>{' '}
+                                    Blog
+                                </button>
+                            </Link>
                         </li>
                         <li className='flex items-center'>
-                            <button
-                                className={
-                                    (props.transparent
-                                        ? 'bg-white text-gray-800 active:bg-gray-100'
-                                        : 'bg-pink-500 text-white active:bg-pink-600') +
-                                    ' text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3'
-                                }
-                                type='button'
-                                style={{ transition: 'all .15s ease' }}
-                            >
-                                <i className='fas fa-arrow-alt-circle-down'></i>{' '}
-                                Download
-                            </button>
+                            <Link to='/contact'>
+                                <button
+                                    className='active:text-gray-600 hover:text-[#10a65c] text-sm font-bold  text-gray-800  px-4  rounded  outline-none lg:mr-1 lg:mb-0 ml-3 mb-3'
+                                    type='button'
+                                    style={{ transition: 'all .15s ease' }}
+                                    onClick={() => setNavbarOpen(!navbarOpen)}
+                                >
+                                    <i className='fas fa-arrow-alt-circle-down'></i>{' '}
+                                    Contact Us
+                                </button>
+                            </Link>
                         </li>
                     </ul>
                 </div>

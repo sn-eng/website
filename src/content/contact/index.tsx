@@ -6,7 +6,7 @@ const Contact = () => {
             id='contact'
             className='ud-contact relative py-20 md:py-[120px]'
         >
-            <div className='absolute top-0 left-0 z-[-1] h-1/2 w-full bg-[#0c4491] lg:h-[45%] xl:h-1/2'></div>
+            <div className='absolute top-0 left-0 z-[-1] h-1/2 w-full bg-[#0b341c] lg:h-[45%] xl:h-1/2'></div>
             <div className='container px-4'>
                 <div className='-mx-4 flex flex-wrap items-center'>
                     <div className='w-full px-4 lg:w-7/12 xl:w-8/12'>
@@ -23,7 +23,7 @@ const Contact = () => {
                             </div>
                             <div className='mb-12 flex flex-wrap justify-between lg:mb-0'>
                                 <div className='mb-8 flex w-[330px] max-w-full'>
-                                    <div className='mr-6 text-[32px] text-primary text-white lg:text-gray-800'>
+                                    <div className='mr-6 text-[32px] text-primary text-white lg:text-[#10a65c]'>
                                         <svg
                                             width='29'
                                             height='35'
@@ -35,17 +35,17 @@ const Contact = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h5 className='mb-6 text-lg font-semibold text-white lg:text-gray-800'>
+                                        <h5 className='mb-6 text-lg font-semibold text-white lg:text-[#10a65c]'>
                                             Our Location
                                         </h5>
                                         <p className='text-base text-body-color text-white lg:text-gray-800'>
-                                            Suite 22, 2nd Floor, Khan House
-                                            Albion/Takawira St, Harare
+                                            Office 201, Business Suites, <br />
+                                            Bulawayo Centre, Bulawayo
                                         </p>
                                     </div>
                                 </div>
                                 <div className='mb-8 flex w-[330px] max-w-full'>
-                                    <div className='mr-6 text-[32px] text-primary text-white lg:text-gray-800'>
+                                    <div className='mr-6 text-[32px] text-primary text-white lg:text-[#10a65c]'>
                                         <svg
                                             width='34'
                                             height='25'
@@ -56,14 +56,17 @@ const Contact = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h5 className='mb-6 text-lg font-semibold text-white lg:text-gray-800'>
+                                        <h5 className='mb-6 text-lg font-semibold text-white lg:text-[#10a65c]'>
                                             How Can We Help?
                                         </h5>
                                         <p className='text-base text-body-color text-white lg:text-gray-800'>
-                                            +263 77 375 1842
+                                            +263 77 883 6553
                                         </p>
                                         <p className='text-base text-body-color text-white lg:text-gray-800'>
-                                            contact@kadge.co.zw
+                                            enquiries@sn-eng.co.zw
+                                        </p>
+                                        <p className='text-base text-body-color text-white lg:text-gray-800'>
+                                            siduna.ndou@gmail.com
                                         </p>
                                     </div>
                                 </div>
@@ -72,13 +75,13 @@ const Contact = () => {
                     </div>
                     <div className='w-full px-4 lg:w-5/12 xl:w-4/12'>
                         <div
-                            className='wow fadeInUp rounded-lg bg-white py-10 px-8 shadow-testimonial sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px] bg-[#fafafa]'
+                            className='wow fadeInUp rounded-lg bg-white py-10 px-8 shadow-testimonial sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px] bg-[#e8f3f5]'
                             data-wow-delay='.2s'
                         >
                             <h3 className='mb-8 text-2xl font-semibold md:text-[26px]'>
                                 Send us a Message
                             </h3>
-                            <form className='bg-[#fafafa]'>
+                            <form className='bg-[#e8f3f5]'>
                                 <div className='mb-6'>
                                     <label
                                         htmlFor='fullName'
@@ -90,7 +93,7 @@ const Contact = () => {
                                         type='text'
                                         name='fullName'
                                         placeholder='John Banda'
-                                        className='w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none bg-[#fafafa]'
+                                        className='w-full border-0 border-b border-[#ffffff] py-4 focus:border-primary focus:outline-none bg-[#e8f3f5]'
                                     />
                                 </div>
                                 <div className='mb-6'>
@@ -104,7 +107,7 @@ const Contact = () => {
                                         type='email'
                                         name='email'
                                         placeholder='example@gmail.com'
-                                        className='w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none bg-[#fafafa]'
+                                        className='w-full border-0 border-b border-[#ffffff] py-4 focus:border-primary focus:outline-none bg-[#e8f3f5]'
                                     />
                                 </div>
                                 <div className='mb-6'>
@@ -118,7 +121,7 @@ const Contact = () => {
                                         type='text'
                                         name='phone'
                                         placeholder='+263 77 123 4567'
-                                        className='w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none bg-[#fafafa]'
+                                        className='w-full border-0 border-b border-[#ffffff] py-4 focus:border-primary focus:outline-none bg-[#e8f3f5]'
                                     />
                                 </div>
                                 <div className='mb-6'>
@@ -131,13 +134,13 @@ const Contact = () => {
                                     <textarea
                                         name='message'
                                         placeholder='type your message here'
-                                        className='w-full resize-none border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none bg-[#fafafa]'
+                                        className='w-full resize-none border-0 border-b border-[#ffffff] py-4 focus:border-primary focus:outline-none bg-[#e8f3f5]'
                                     ></textarea>
                                 </div>
                                 <div className='mb-0'>
                                     <button
                                         type='submit'
-                                        className='inline-flex items-center justify-center rounded bg-[#0c4491] py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark'
+                                        className='inline-flex items-center justify-center rounded bg-[#10a65c] hover:bg-[#0b341c] active:bg-[#f2fcf4] py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark'
                                     >
                                         Send Message
                                     </button>

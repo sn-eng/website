@@ -79,7 +79,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className='slider_main z-0 w-full h-[560px] text-white mb-6'>
+            <div className='slider_main z-0 w-full h-[560px] text-white mb-24'>
                 <Slider {...settings}>
                     {projects.map(project => (
                         <div

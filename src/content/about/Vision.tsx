@@ -12,7 +12,7 @@ function Vision() {
         <section className='relative'>
             {/* Section background (needs .relative class on parent and next sibling elements) */}
             <div
-                className='absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-[#0c4491] pointer-events-none'
+                className='absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-[#f2fcf4] pointer-events-none'
                 aria-hidden='true'
             ></div>
             <div className='absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2'></div>
@@ -40,7 +40,7 @@ function Vision() {
                                 className='rounded-full max-w-full mx-auto'
                                 style={{ height: '80px' }}
                             />
-                            <h4 className='text-xl font-bold leading-snug tracking-tight mb-1'>
+                            <h4 className='text-xl text-[#10a65c] font-bold leading-snug tracking-tight mb-1'>
                                 Quality
                             </h4>
                             <p className='text-gray-600 text-center'>
@@ -57,7 +57,7 @@ function Vision() {
                                 className='rounded-full max-w-full mx-auto'
                                 style={{ height: '80px' }}
                             />
-                            <h4 className='text-xl font-bold leading-snug tracking-tight mb-1'>
+                            <h4 className='text-xl text-[#10a65c] font-bold leading-snug tracking-tight mb-1'>
                                 Integrity
                             </h4>
                             <p className='text-gray-600 text-center'>
@@ -74,7 +74,7 @@ function Vision() {
                                 className='rounded-full max-w-full mx-auto'
                                 style={{ height: '80px' }}
                             />
-                            <h4 className='text-xl font-bold leading-snug tracking-tight mb-1'>
+                            <h4 className='text-xl text-[#10a65c] font-bold leading-snug tracking-tight mb-1'>
                                 Safety
                             </h4>
                             <p className='text-gray-600 text-center'>
@@ -91,7 +91,7 @@ function Vision() {
                                 className='rounded-full max-w-full mx-auto'
                                 style={{ height: '80px' }}
                             />
-                            <h4 className='text-xl font-bold leading-snug tracking-tight mb-1'>
+                            <h4 className='text-xl text-[#10a65c] font-bold leading-snug tracking-tight mb-1'>
                                 Agile
                             </h4>
                             <p className='text-gray-600 text-center'>
@@ -108,7 +108,7 @@ function Vision() {
                                 className='rounded-full max-w-full mx-auto'
                                 style={{ height: '80px' }}
                             />
-                            <h4 className='text-xl font-bold leading-snug tracking-tight mb-1'>
+                            <h4 className='text-xl text-[#10a65c] font-bold leading-snug tracking-tight mb-1'>
                                 Relationships
                             </h4>
                             <p className='text-gray-600 text-center'>
@@ -125,7 +125,7 @@ function Vision() {
                                 className='rounded-full max-w-full mx-auto'
                                 style={{ height: '80px' }}
                             />
-                            <h4 className='text-xl font-bold leading-snug tracking-tight mb-1'>
+                            <h4 className='text-xl text-[#10a65c] font-bold leading-snug tracking-tight mb-1'>
                                 Innovation
                             </h4>
                             <p className='text-gray-600 text-center'>

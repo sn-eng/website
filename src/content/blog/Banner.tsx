@@ -1,20 +1,20 @@
 import React from 'react'
 
-const Banner = () => {
+function Banner() {
     return (
         <section className='relative'>
             <div className='max-w-6xl mx-auto px-4 sm:px-6'>
                 {/* Hero content */}
-                <div className='pt-20 pb-12 md:pt-32 md:pb-20'>
+                <div className='pt-8 pb-4 md:pt-32 md:pb-8'>
                     {/* Section header */}
-                    <div className='text-center pb-12 md:pb-16'>
+                    <div className='text-center pb-12 md:pb-4'>
                         <h1
                             className='text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4'
                             data-aos='zoom-y-out'
                         >
-                            Make your website{' '}
-                            <span className='bg-clip-text text-transparent bg-gradient-to-r from-[#0c4491] to-[#d2a517]'>
-                                wonderful
+                            Your Housing{' '}
+                            <span className='bg-clip-text text-transparent bg-gradient-to-r from-[#10a65c] to-[#0b341c]'>
+                                Blog Site
                             </span>
                         </h1>
                         <div className='max-w-3xl mx-auto'>
@@ -23,9 +23,9 @@ const Banner = () => {
                                 data-aos='zoom-y-out'
                                 data-aos-delay='150'
                             >
-                                Our landing page template works on all devices,
-                                so you only have to set it up once, and get
-                                beautiful results forever.
+                                Check out the modern trends in architecture and
+                                design, and the simple hacks that can transform
+                                your house.
                             </p>
                             <div
                                 className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center'

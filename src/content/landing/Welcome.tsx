@@ -7,7 +7,7 @@ import civils from '../../assets/civils.png'
 const Welcome = () => {
     return (
         <>
-            <section className='pb-20 bg-[#f1f1e6] -mt-24'>
+            <section className='pb-20 bg-[#e8f3f5] -mt-24'>
                 <div className='container mx-auto px-4'>
                     <div className='flex flex-wrap'>
                         <div className='lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center'>
@@ -79,7 +79,7 @@ const Welcome = () => {
 
                     <div className='flex flex-wrap items-center mt-8'>
                         <div className='w-full md:w-5/12 px-4 mr-auto ml-auto'>
-                            <div className='text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-[#0c4491]'>
+                            <div className='text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-[#0b341c]'>
                                 <i className='fas fa-user-friends text-xl'></i>
                             </div>
                             <h3 className='text-3xl mb-2 font-semibold leading-normal'>
@@ -101,7 +101,7 @@ const Welcome = () => {
                         </div>
 
                         <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
-                            <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-[#0c4491]'>
+                            <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-[#0b341c]'>
                                 <img
                                     alt='Kadge \Construction Pvt Ltd'
                                     src={meeting}
@@ -120,7 +120,7 @@ const Welcome = () => {
                                     >
                                         <polygon
                                             points='-30,95 583,95 583,65'
-                                            className='text-[#0c4491] fill-current'
+                                            className='text-[#0b341c] fill-current'
                                         ></polygon>
                                     </svg>
                                     <h4 className='text-xl font-bold text-white'>

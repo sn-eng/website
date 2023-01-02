@@ -3,51 +3,161 @@ import aboutImage from '../../assets/about-image.jpg'
 
 const Story = () => {
     return (
-        <div className='container'>
-            <div className='wow fadeInUp bg-white' data-wow-delay='.2s'>
-                <div className='-mx-4 flex flex-wrap'>
-                    <div className='w-full px-4'>
-                        <div className='items-center justify-center overflow-hidden border lg:flex'>
-                            <div className='w-full py-12 px-7 sm:px-12 md:p-16 lg:max-w-[565px] lg:py-9 lg:px-16 xl:max-w-[640px] xl:p-[70px]'>
-                                <h2 className='mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]'>
-                                    Competent Partners for your Next
-                                    Construction Project.
-                                </h2>
-                                <p className='mb-9 text-base leading-relaxed text-body-color'>
-                                    The main ‘thrust' is to focus on educating
-                                    attendees on how to best protect highly
-                                    vulnerable business applications with
-                                    interactive panel discussions and
-                                    roundtables led by subject matter experts.
-                                </p>
-                                <p className='mb-9 text-base leading-relaxed text-body-color'>
-                                    The main ‘thrust' is to focus on educating
-                                    attendees on how to best protect highly
-                                    vulnerable business applications with
-                                    interactive panel.
-                                </p>
-                                <a
-                                    href='javascript:void(0)'
-                                    className='inline-flex items-center justify-center rounded bg-primary py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-90 hover:shadow-lg'
-                                >
-                                    Learn More
-                                </a>
-                            </div>
-                            <div className='text-center'>
-                                <div className='relative z-10 inline-block p-8'>
-                                    <img
-                                        src={aboutImage}
-                                        alt='image'
-                                        className='mx-auto lg:ml-auto'
-                                        style={{ maxHeight: '450px' }}
-                                    />
+        <main>
+            <section className='relative py-20'>
+                <div className='container mx-auto px-4'>
+                    <div className='items-center flex flex-wrap'>
+                        <div className='w-full md:w-4/12 ml-auto mr-auto px-4 p-4'>
+                            <img
+                                alt='story'
+                                className='max-w-full max-h-[400px] rounded-lg shadow-lg '
+                                src={aboutImage}
+                            />
+                        </div>
+                        <div className='w-full md:w-5/12 ml-auto mr-auto px-4'>
+                            <div className='md:pr-12'>
+                                <div className='text-[#0b341c] p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-[#0b341c]'>
+                                    <i className='fas fa-rocket text-xl'></i>
                                 </div>
+                                <h3 className='text-3xl font-semibold'>
+                                    Our Story
+                                </h3>
+                                <p className='mt-4 text-lg leading-relaxed text-gray-600'>
+                                    Since conception, we have been geared
+                                    towards becoming the leading blue-chip
+                                    construction services provider in the SADC
+                                    region. Our strategy to achieve this feat
+                                    comprises of three pillars:
+                                </p>
+                                <ul className='list-none mt-6'>
+                                    <li className='py-2'>
+                                        <div className='flex items-center'>
+                                            <div>
+                                                <span className='text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-[#0b341c] bg-[#0b341c] mr-3'>
+                                                    <i className='fas fa-fingerprint'></i>
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <h4 className='text-gray-600'>
+                                                    Efficiency & Competence
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className='py-2'>
+                                        <div className='flex items-center'>
+                                            <div>
+                                                <span className='text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-[#0b341c] bg-[#0b341c] mr-3'>
+                                                    <i className='fab fa-html5'></i>
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <h4 className='text-gray-600'>
+                                                    Innovation & Research
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className='py-2'>
+                                        <div className='flex items-center'>
+                                            <div>
+                                                <span className='text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-[#0b341c] bg-[#0b341c] mr-3'>
+                                                    <i className='far fa-paper-plane'></i>
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <h4 className='text-gray-600'>
+                                                    Honesty & Integrity
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+
+            <section className='pb-20 relative block bg-[#0b341c]'>
+                <div
+                    className='bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20'
+                    style={{ height: '80px' }}
+                >
+                    <svg
+                        className='absolute bottom-0 overflow-hidden'
+                        xmlns='http://www.w3.org/2000/svg'
+                        preserveAspectRatio='none'
+                        version='1.1'
+                        viewBox='0 0 2560 100'
+                        x='0'
+                        y='0'
+                    >
+                        <polygon
+                            className='text-[#0b341c] fill-current'
+                            points='2560 0 2560 100 0 100'
+                        ></polygon>
+                    </svg>
+                </div>
+
+                <div className='container mx-auto px-4 lg:pt-24'>
+                    <div className='flex flex-wrap text-center justify-center'>
+                        <div className='w-full lg:w-6/12 px-4'>
+                            <h2 className='text-4xl font-semibold text-white'>
+                                Our Timeline
+                            </h2>
+                            <p className='text-lg leading-relaxed mt-4 mb-4 text-white'>
+                                Through a series of small, seemingly
+                                insignificant wins, we are proud of the
+                                trajectory that we have taken and firmly believe
+                                that more is still to come. One small victory at
+                                a time!
+                            </p>
+                        </div>
+                    </div>
+                    <div className='flex flex-wrap mt-12 justify-center'>
+                        <div className='w-full lg:w-3/12 px-4 text-center'>
+                            <div className='text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
+                                <i className='fas fa-medal text-xl'></i>
+                            </div>
+                            <h6 className='text-xl mt-5 font-semibold text-white'>
+                                Beginnings
+                            </h6>
+                            <p className='mt-2 mb-4 text-white'>
+                                In 2019 we opened our doors focusing on
+                                renovations, building construction and design
+                                works.
+                            </p>
+                        </div>
+                        <div className='w-full lg:w-3/12 px-4 text-center'>
+                            <div className='text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
+                                <i className='fas fa-poll text-xl'></i>
+                            </div>
+                            <h5 className='text-xl mt-5 font-semibold text-white'>
+                                The Present
+                            </h5>
+                            <p className='mt-2 mb-4 text-white'>
+                                We added concrete works, civil works, structural
+                                steel and excavation works.
+                            </p>
+                        </div>
+                        <div className='w-full lg:w-3/12 px-4 text-center'>
+                            <div className='text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
+                                <i className='fas fa-lightbulb text-xl'></i>
+                            </div>
+                            <h5 className='text-xl mt-5 font-semibold text-white'>
+                                The destination
+                            </h5>
+                            <p className='mt-2 mb-4 text-white'>
+                                We intend to venture into the development of
+                                low-cost modular homes & geotechnical
+                                engineering.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     )
 }
 

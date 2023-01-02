@@ -1,13 +1,13 @@
 import React from 'react'
-import landingBanner from '../../assets/landing-banner.jpg'
+import landingBanner from '../../assets/project4.jpg'
 
-function Banner() {
+const Banner = () => {
     return (
         <section className='relative'>
             <div
                 className='relative pt-16 pb-32 flex content-center items-center justify-center '
                 style={{
-                    minHeight: '95vh',
+                    minHeight: '80vh',
                 }}
             >
                 <div
@@ -26,13 +26,12 @@ function Banner() {
                         <div className='w-full lg:w-6/12 px-4 ml-auto mr-auto text-center'>
                             <div className='pr-12'>
                                 <h1 className='text-white font-semibold text-5xl'>
-                                    Your story begins with us.
+                                    Our Blog
                                 </h1>
-                                <p className='mt-4 text-lg text-gray-300'>
-                                    Ours is a lifelong pledge to
-                                    perfection-guaranteed quality construction
-                                    service that is delivered on our bedrock of
-                                    professionalism, innovation and integrity.
+                                <p className='mt-4 text-[20px] text-white'>
+                                    Check out the modern trends in architecture
+                                    and design, and the simple hacks that can
+                                    transform your house.
                                 </p>
                             </div>
                         </div>
@@ -52,7 +51,7 @@ function Banner() {
                         y='0'
                     >
                         <polygon
-                            className='text-[#d2a517] fill-current'
+                            className='text-[#10a65c] fill-current'
                             points='2560 0 2560 100 0 100'
                         ></polygon>
                     </svg>

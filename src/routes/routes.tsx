@@ -17,7 +17,7 @@ const Loader = (Component: any) => (props: any) =>
 //General Pages
 const Landing = Loader(lazy(() => import('../content/landing')))
 const About = Loader(lazy(() => import('../content/about')))
-const Services = Loader(lazy(() => import('../content/services')))
+const Blog = Loader(lazy(() => import('../content/blog')))
 const Contact = Loader(lazy(() => import('../content/contact')))
 
 const routes: RouteObject[] = [
@@ -34,8 +34,8 @@ const routes: RouteObject[] = [
                 element: <About />,
             },
             {
-                path: 'services',
-                element: <Services />,
+                path: 'blog',
+                element: <Blog />,
             },
             {
                 path: 'contact',
