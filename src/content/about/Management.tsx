@@ -3,7 +3,7 @@ import joker from '../../assets/joker.jpg'
 
 const Management = () => {
     return (
-        <section className='pt-20 pb-5'>
+        <section className='pt-20 pb-[60px]'>
             <div className='container mx-auto px-4'>
                 <div className='flex flex-wrap justify-center text-center mb-8'>
                     <div className='w-full lg:w-6/12 px-4'>

@@ -5,11 +5,11 @@ import Footer from '../components/footer'
 
 const GeneralPagesLayout = () => {
     return (
-        <div>
+        <div className='bg-[#f2fcf4'>
             <Header />
-            <section className='-mt-[20px]' style={{ minHeight: '40vh' }}>
+            <div style={{ minHeight: '40vh' }}>
                 <Outlet />
-            </section>
+            </div>
             <Footer />
         </div>
     )
