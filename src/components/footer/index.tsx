@@ -5,8 +5,8 @@ function Footer() {
     return (
         <footer className='relative bg-[#e8f3f5] pt-8 pb-6'>
             <div
-                className='bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20'
-                style={{ height: '80px' }}
+                className='bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-[60px]'
+                style={{ height: '60px' }}
             >
                 <svg
                     className='absolute bottom-0 overflow-hidden'
@@ -68,14 +68,14 @@ function Footer() {
                                 </span>
                                 <ul className='list-unstyled'>
                                     <li>
-                                        <li>
-                                            <Link
-                                                className='text-gray-600 hover:text-[#10a65c] font-semibold block pb-2 text-sm'
-                                                to=''
-                                            >
-                                                Home
-                                            </Link>
-                                        </li>
+                                        <Link
+                                            className='text-gray-600 hover:text-[#10a65c] font-semibold block pb-2 text-sm'
+                                            to=''
+                                        >
+                                            Home
+                                        </Link>
+                                    </li>
+                                    <li>
                                         <Link
                                             className='text-gray-600 hover:text-[#10a65c] font-semibold block pb-2 text-sm'
                                             to='about'

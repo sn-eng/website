@@ -136,6 +136,25 @@ const Welcome = () => {
                             </div>
                         </div>
                     </div>
+                    <div
+                        className='left-0 right-0 w-full mt-[11px] absolute pointer-events-none overflow-hidden'
+                        style={{ height: '70px' }}
+                    >
+                        <svg
+                            className='absolute bottom-0 overflow-hidden'
+                            xmlns='http://www.w3.org/2000/svg'
+                            preserveAspectRatio='none'
+                            version='1.1'
+                            viewBox='0 0 2560 100'
+                            x='0'
+                            y='0'
+                        >
+                            <polygon
+                                className='text-[#fff] fill-current'
+                                points='2560 0 2560 100 0 100'
+                            ></polygon>
+                        </svg>
+                    </div>
                 </div>
             </section>
         </>

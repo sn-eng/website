@@ -218,16 +218,16 @@ const Services = () => {
                             y2='-418.681'
                             gradientUnits='userSpaceOnUse'
                         >
-                            <stop stop-color='#e8f3f5' stop-opacity='1' />
+                            <stop stopColor='#e8f3f5' stopOpacity='1' />
                             <stop
                                 offset='1'
-                                stop-color='#e8f3f5'
-                                stop-opacity='0'
+                                stopColor='#e8f3f5'
+                                stopOpacity='0'
                             />
                             <stop
                                 offset='1'
-                                stop-color='#F5F2FD'
-                                stop-opacity='0.096144'
+                                stopColor='#F5F2FD'
+                                stopOpacity='0.096144'
                             />
                         </linearGradient>
                     </defs>

@@ -29,10 +29,10 @@ const Banner = () => {
                                     Your story begins with us.
                                 </h1>
                                 <p className='mt-4 text-[20px] text-white'>
-                                    Ours is a lifelong pledge to
-                                    perfection-guaranteed quality construction
-                                    service that is delivered on our bedrock of
-                                    professionalism, innovation and integrity.
+                                    Ours is a lifelong pledge of consistent
+                                    quality construction services, delivered
+                                    through professionalism, innovation and
+                                    integrity.
                                 </p>
                             </div>
                         </div>
