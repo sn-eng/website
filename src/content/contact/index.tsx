@@ -75,7 +75,7 @@ const Contact = () => {
                     </div>
                     <div className='w-full px-4 lg:w-5/12 xl:w-4/12'>
                         <div
-                            className='wow fadeInUp rounded-lg bg-white py-10 px-8 shadow-testimonial sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px] bg-[#e8f3f5]'
+                            className='wow fadeInUp rounded-lg bg-[#e8f3f5] py-10 px-8 shadow-testimonial sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px] bg-[#e8f3f5]'
                             data-wow-delay='.2s'
                         >
                             <h3 className='mb-8 text-2xl font-semibold md:text-[26px]'>

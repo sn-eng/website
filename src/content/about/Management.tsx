@@ -44,7 +44,7 @@ const Management = () => {
                                         </h3>
                                         <div className='text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase'>
                                             <i className='fas fa-map-marker-alt mr-2 text-lg text-gray-500'></i>{' '}
-                                            Capital & Business
+                                            Financials
                                         </div>
                                         <div className='mt-6 flex justify-evenly h-10 mb-4'>
                                             <button

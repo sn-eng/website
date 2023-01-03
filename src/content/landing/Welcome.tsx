@@ -47,8 +47,7 @@ const Welcome = () => {
                                     <p className='mt-2 mb-4 text-gray-600'>
                                         Earthworks and excavations, drains,
                                         water reticulation systems,
-                                        roads,irrigation systems, geotech,
-                                        embankments
+                                        roads,irrigation systems, embankments
                                     </p>
                                 </div>
                             </div>

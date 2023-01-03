@@ -1,5 +1,8 @@
 import React from 'react'
 import aboutImage from '../../assets/about-image.jpg'
+import start from '../../assets/start.png'
+import current from '../../assets/current.png'
+import future from '../../assets/future.png'
 
 const Story = () => {
     return (
@@ -117,8 +120,13 @@ const Story = () => {
                     </div>
                     <div className='flex flex-wrap mt-12 justify-center'>
                         <div className='w-full lg:w-3/12 px-4 text-center'>
-                            <div className='text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
-                                <i className='fas fa-medal text-xl'></i>
+                            <div className=' inline-flex items-center justify-center'>
+                                <img
+                                    alt='beginnings'
+                                    src={start}
+                                    className=' max-w-full mx-auto'
+                                    style={{ height: '50px' }}
+                                />
                             </div>
                             <h6 className='text-xl mt-5 font-semibold text-white'>
                                 Beginnings
@@ -130,8 +138,13 @@ const Story = () => {
                             </p>
                         </div>
                         <div className='w-full lg:w-3/12 px-4 text-center'>
-                            <div className='text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
-                                <i className='fas fa-poll text-xl'></i>
+                            <div className=' inline-flex items-center justify-center'>
+                                <img
+                                    alt='now'
+                                    src={current}
+                                    className=' max-w-full mx-auto'
+                                    style={{ height: '50px' }}
+                                />
                             </div>
                             <h5 className='text-xl mt-5 font-semibold text-white'>
                                 The Present
@@ -142,11 +155,16 @@ const Story = () => {
                             </p>
                         </div>
                         <div className='w-full lg:w-3/12 px-4 text-center'>
-                            <div className='text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
-                                <i className='fas fa-lightbulb text-xl'></i>
+                            <div className=' inline-flex items-center justify-center'>
+                                <img
+                                    alt='the destination'
+                                    src={future}
+                                    className=' max-w-full mx-auto'
+                                    style={{ height: '50px' }}
+                                />
                             </div>
                             <h5 className='text-xl mt-5 font-semibold text-white'>
-                                The destination
+                                The Destination
                             </h5>
                             <p className='mt-2 mb-4 text-white'>
                                 We intend to venture into the development of
