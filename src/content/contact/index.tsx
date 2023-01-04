@@ -1,6 +1,39 @@
 import React from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+    const form = React.useRef<HTMLFormElement>(null)
+    const [loader, setLoader] = React.useState<boolean>(false)
+
+    const sendEmail = (e: { preventDefault: () => void }) => {
+        e.preventDefault()
+        setLoader(true)
+
+        const currentForm = form.current
+        if (currentForm == null) return
+
+        emailjs
+            .sendForm(
+                'siduna_ndou',
+                'sndou_contact_us',
+                currentForm,
+                'LQVvEhCcncCuyskbE',
+            )
+            .then(
+                result => {
+                    console.log(result.text)
+                    setLoader(false)
+                    alert('Submission successful, we will get back to you')
+                },
+                error => {
+                    console.log(error.text)
+                    setLoader(false)
+                    alert('Error! Please try again')
+                },
+            )
+        currentForm.reset()
+    }
+
     return (
         <section
             id='contact'
@@ -81,7 +114,11 @@ const Contact = () => {
                             <h3 className='mb-8 text-2xl font-semibold md:text-[26px]'>
                                 Send us a Message
                             </h3>
-                            <form className='bg-[#e8f3f5]'>
+                            <form
+                                className='bg-[#e8f3f5]'
+                                ref={form}
+                                onSubmit={sendEmail}
+                            >
                                 <div className='mb-6'>
                                     <label
                                         htmlFor='fullName'
@@ -90,8 +127,9 @@ const Contact = () => {
                                         Full Name*
                                     </label>
                                     <input
+                                        required
                                         type='text'
-                                        name='fullName'
+                                        name='name'
                                         placeholder='John Banda'
                                         className='w-full border-0 border-b border-[#ffffff] py-4 focus:border-primary focus:outline-none bg-[#e8f3f5]'
                                     />
@@ -104,6 +142,7 @@ const Contact = () => {
                                         Email*
                                     </label>
                                     <input
+                                        required
                                         type='email'
                                         name='email'
                                         placeholder='example@gmail.com'
@@ -118,6 +157,7 @@ const Contact = () => {
                                         Phone*
                                     </label>
                                     <input
+                                        required
                                         type='text'
                                         name='phone'
                                         placeholder='+263 77 123 4567'
@@ -132,6 +172,7 @@ const Contact = () => {
                                         Message*
                                     </label>
                                     <textarea
+                                        required
                                         name='message'
                                         placeholder='type your message here'
                                         className='w-full resize-none border-0 border-b border-[#ffffff] py-4 focus:border-primary focus:outline-none bg-[#e8f3f5]'
@@ -140,7 +181,11 @@ const Contact = () => {
                                 <div className='mb-0'>
                                     <button
                                         type='submit'
-                                        className='inline-flex items-center justify-center rounded bg-[#10a65c] hover:bg-[#0b341c] active:bg-[#f2fcf4] py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark'
+                                        className={`inline-flex items-center  ${
+                                            loader
+                                                ? 'bg-[#f2fcf4]'
+                                                : 'bg-[#10a65c]'
+                                        } justify-center rounded py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark`}
                                     >
                                         Send Message
                                     </button>
