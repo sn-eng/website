@@ -23,11 +23,20 @@ export default function Header(props: any) {
                         />
                     </Link>
                     <button
-                        className='cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
+                        className='cursor-pointer text-xl leading-none  py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
                         type='button'
                         onClick={() => setNavbarOpen(!navbarOpen)}
                     >
-                        <i className='text-gray-800f as fa-bars'></i>
+                        <svg
+                            className='w-16 h-16 fill-gray-800 '
+                            viewBox='0 0 32 32'
+                            xmlns='http://www.w3.org/2000/svg'
+                        >
+                            <path
+                                fill-rule='evenodd'
+                                d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'
+                            />
+                        </svg>
                     </button>
                 </div>
                 <div
