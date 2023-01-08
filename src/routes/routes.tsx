@@ -21,6 +21,7 @@ const Landing = Loader(lazy(() => import('../content/landing')))
 const About = Loader(lazy(() => import('../content/about')))
 const Blog = Loader(lazy(() => import('../content/blog')))
 const Contact = Loader(lazy(() => import('../content/contact')))
+const Article = Loader(lazy(() => import('../content/article')))
 
 //Admin Pages
 const AdminBlog = Loader(lazy(() => import('../admin/pages/blog')))
@@ -55,6 +56,10 @@ const routes: RouteObject[] = [
             {
                 path: 'contact',
                 element: <Contact />,
+            },
+            {
+                path: 'blog/:id',
+                element: <Article />,
             },
             {
                 path: 'terms',
