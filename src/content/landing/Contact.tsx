@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import handover from '../../assets/handover.jpg'
 
 const Contact = () => {
@@ -21,17 +22,14 @@ const Contact = () => {
                         </p>
                     </div>
                     <div className='flex items-center space-x-3'>
-                        <a
-                            href='/contact'
-                            className=' transition duration-300 hover:shadow-lg'
-                        >
+                        <Link to='/contact'>
                             <button
                                 type='submit'
                                 className='inline-flex items-center justify-center rounded bg-[#10a65c] hover:bg-[#0b341c] active:bg-[#f2fcf4] py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark'
                             >
                                 Reach Out to Us Today
                             </button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className='flex items-center justify-center lg:w-1/2'>
