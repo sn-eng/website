@@ -1,5 +1,6 @@
 import React from 'react'
 import emailjs from '@emailjs/browser'
+import { Helmet } from 'react-helmet-async'
 
 const Contact = () => {
     const form = React.useRef<HTMLFormElement>(null)
@@ -39,6 +40,9 @@ const Contact = () => {
             id='contact'
             className='ud-contact relative py-20 md:py-[120px]'
         >
+            <Helmet>
+                <title>Contact Us | Siduna & Ndou Eng</title>
+            </Helmet>
             <div className='absolute top-0 left-0 z-[-1] h-1/2 w-full bg-[#0b341c] lg:h-[45%] xl:h-1/2'></div>
             <div className='container px-4'>
                 <div className='-mx-4 flex flex-wrap items-center'>

@@ -1,5 +1,6 @@
 import { onSnapshot, doc } from 'firebase/firestore'
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import { useParams } from 'react-router-dom'
 import { db } from '../../services/firebaseConfig'
 
@@ -16,6 +17,13 @@ const Article = () => {
 
     return (
         <div className='p-8 lg:p-16 max-w-1/2 grid  place-items-center'>
+            <Helmet>
+                {article?.title ? (
+                    <title> {`${article?.title}`} | Siduna & Ndou Eng</title>
+                ) : (
+                    <title> Article | Siduna & Ndou Eng</title>
+                )}
+            </Helmet>
             <div className='justify-self-center'>
                 <h2 className='font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6'>
                     {article?.title}
