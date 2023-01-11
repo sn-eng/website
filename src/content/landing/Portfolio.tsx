@@ -19,33 +19,33 @@ interface ProjectType {
 const projects: ProjectType[] = [
     {
         image: project1,
-        title: 'Project 1 Title Baba',
+        title: 'Centre Pivot Irrigation System Installation',
         description:
-            'this is a very lengty description o the work done on the wonderful project',
+            'Design and installation of a centre pivot irrigation for a farm in Lalapansi, Midlands',
     },
     {
         image: project2,
-        title: 'Project 2 Title Baba',
+        title: 'Rutenga Farm Irrigation System',
         description:
-            'this is a very lengty description o the work done on the wonderful project',
+            'Design, supply and installation of a pump house and valves for a farm in Rutenga, Zimbabwe.',
     },
     {
         image: project3,
-        title: 'Project 3 Title Baba',
+        title: 'Warehouse Renovations',
         description:
-            'this is a very lengty description o the work done on the hahahahaha ahahahaha ahahahaha ahahaha',
+            'Applying a paint job after fixing the roof of a warehouse in Bulawayo, Zimbabwe.',
     },
     {
         image: project4,
-        title: 'Project 4 Title Baba',
+        title: 'Structural Concreting',
         description:
-            'this is a very lengty description o the work done on the wonderful project',
+            'Reinforcement bars prior to the concreting of warehouse bases in Kelvin, Bulawayo',
     },
     {
         image: project5,
-        title: 'Project 5 Title Baba',
+        title: 'Basement Excavation',
         description:
-            'this is a very lengty description o the work done on the wonderful project',
+            'Basement excavation for a residential house in Harare.',
     },
 ]
 
@@ -53,7 +53,7 @@ const Portfolio = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 7000,
+        speed: 10000,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
@@ -69,13 +69,8 @@ const Portfolio = () => {
                 <div className='flex flex-wrap text-center justify-center'>
                     <div className='w-full lg:w-6/12 px-4'>
                         <h2 className='text-3xl mb-2 font-semibold leading-normal'>
-                            Our Portfolio
+                            Photo Gallery
                         </h2>
-                        <p className='text-lg leading-relaxed mt-4 mb-4 text-gray-500'>
-                            We pride ourselves as masters of quality and
-                            consistency and our large portfolio of projects that
-                            we have done include the following:
-                        </p>
                     </div>
                 </div>
             </div>
