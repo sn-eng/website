@@ -13,9 +13,9 @@ const Management = () => {
                             Our Management
                         </h2>
                         <p className='text-lg leading-relaxed m-4 text-gray-600'>
-                            We boast of an young, vibrant leadership team that
-                            is daring to handle construction projects of any
-                            type and magnitude.
+                            We boast of a young, vibrant leadership team that is
+                            daring to handle construction projects of any type
+                            and magnitude.
                         </p>
                     </div>
                 </div>

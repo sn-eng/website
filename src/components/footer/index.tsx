@@ -30,8 +30,8 @@ function Footer() {
                             Let's keep in touch!
                         </h4>
                         <h5 className='text-lg mt-0 mb-2 text-gray-700'>
-                            Find us on our social media platforms, we respond in
-                            1-2 business days.
+                            Find us on our social media platforms, we respond as
+                            fast as we can.
                         </h5>
                         <div className='mt-6 flex justify-left items-center'>
                             <a
