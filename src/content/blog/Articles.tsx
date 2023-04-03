@@ -99,44 +99,62 @@ const Articles = () => {
     }
     return (
         <>
-            <div className='p-10 pb-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
-                {data.map(article => (
-                    <div className='rounded overflow-hidden shadow-lg'>
-                        <img
-                            className='w-full max-h-[200px]'
-                            src={article.imageUrl}
-                            alt={article.title}
-                        />
-                        <div className='px-6 py-4'>
-                            <div className='font-bold text-xl mb-2'>
-                                {article.title}
-                            </div>
-                            <p className='text-gray-700 text-base'>
-                                {article.abstract}
-                            </p>
-                        </div>
-                        <div className='flex items-center space-x-3 justify-center py-4'>
-                            <Link to={`/blog/${article.id}`}>
-                                <button
-                                    type='submit'
-                                    className='inline-flex items-center justify-end rounded bg-[#10a65c] hover:opacity-[80%] active:bg-[#f2fcf4] py-1.5 px-1.5 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark'
-                                >
-                                    Read More
-                                </button>
-                            </Link>
-                        </div>
+
+            {data.length < 1 ? (
+                <div className='flex flex-col justify-center px-6 pt-4 pb-12'>
+                    <div className='font-bold text-xl text-center mb-2'>
+                        Coming Soon
                     </div>
-                ))}
-            </div>
-            <div className='flex items-center space-x-3 justify-center py-4 pb-12'>
-                <button
-                    onClick={nextDocuments}
-                    disabled={!lastDocument}
-                    className='inline-flex items-center justify-end rounded bg-[#10a65c] hover:opacity-[80%] active:bg-[#f2fcf4] py-1.5 px-1.5 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark'
-                >
-                    Load More
-                </button>
-            </div>
+                    <p className='text-gray-700 text-center text-base'>
+                        Please keep on checking with us
+                    </p>
+                </div>
+            ) : (
+                <React.Fragment>
+                    <div className='p-10 pb-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
+                        {data.map(article => (
+                            <div className='rounded overflow-hidden shadow-lg'>
+                                <img
+                                    className='w-full max-h-[200px]'
+                                    src={article.imageUrl}
+                                    alt={article.title}
+                                />
+                                <div className='px-6 py-4'>
+                                    <div className='font-bold text-xl mb-2'>
+                                        {article.title}
+                                    </div>
+                                    <p className='text-gray-700 text-base'>
+                                        {article.abstract}
+                                    </p>
+                                </div>
+                                <div className='flex items-center space-x-3 justify-center py-4'>
+                                    <Link to={`/blog/${article.id}`}>
+                                        <button
+                                            type='submit'
+                                            className='inline-flex items-center justify-end rounded bg-[#10a65c] hover:opacity-[80%] active:bg-[#f2fcf4] py-1.5 px-1.5 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark'
+                                        >
+                                            Read More
+                                        </button>
+                                    </Link>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </React.Fragment >
+            )}
+
+            {
+                data.length > 0 &&
+                <div className='flex items-center space-x-3 justify-center py-4 pb-12'>
+                    <button
+                        onClick={nextDocuments}
+                        disabled={!lastDocument}
+                        className='inline-flex items-center justify-end rounded bg-[#10a65c] hover:opacity-[80%] active:bg-[#f2fcf4] py-1.5 px-1.5 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark'
+                    >
+                        Load More
+                    </button>
+                </div>
+            }
         </>
     )
 }
