@@ -28,7 +28,7 @@ const Management = () => {
                                         <div className='w-full lg:w-3/12 px-4 lg:order-2 flex justify-center'>
                                             <div className='relative justify-center'>
                                                 <img
-                                                    alt='Thabo Ndou'
+                                                    alt='Remember Ndou'
                                                     src={thabo}
                                                     className='shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16'
                                                     style={{
@@ -40,7 +40,7 @@ const Management = () => {
                                     </div>
                                     <div className='text-center mt-[100px]'>
                                         <h3 className='text-2xl font-semibold leading-normal mb-2 text-gray-800 mb-2'>
-                                            Thabo Ndou
+                                            Remember Ndou
                                         </h3>
                                         <div className='text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase'>
                                             <i className='fas fa-map-marker-alt mr-2 text-lg text-gray-500'></i>{' '}
@@ -48,7 +48,7 @@ const Management = () => {
                                         </div>
                                         <div className='mt-6 flex justify-evenly h-10 mb-4'>
                                             <a
-                                                href='https://www.linkedin.com/in/thabo-ndou-9284a012b/'
+                                                href='https://www.linkedin.com/in/remember-ndou-94ba43252/'
                                                 target='_blank'
                                                 rel='noreferrer'
                                             >
