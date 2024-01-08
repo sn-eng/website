@@ -100,7 +100,7 @@ const Contact = () => {
                                             +263 77 883 6553
                                         </p>
                                         <p className='text-base text-body-color text-white lg:text-gray-800'>
-                                            enquiries@sn-eng.co.zw
+                                            info@sn-eng.co.zw
                                         </p>
                                         <p className='text-base text-body-color text-white lg:text-gray-800'>
                                             siduna.ndou@gmail.com
